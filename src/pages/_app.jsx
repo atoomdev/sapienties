@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
             </>}
           >
             <Navbar />
-            <main className="min-h-[67vh] px-6 lg:px-0">
+            <main className="min-h-[70vh] px-6 lg:px-0">
               <Component {...pageProps} />
             </main>
             <Footer />
