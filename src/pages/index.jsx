@@ -34,7 +34,7 @@ export default function Home() {
 
       <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-4 gap-4 mt-24">
         <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
-          <span className="text-primary uppercase">Technologies</span>
+          <span className="text-primary uppercase">Technologies We Use</span>
           <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">{skills?.length}20+</p>
         </div>
         <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
