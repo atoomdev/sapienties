@@ -59,5 +59,8 @@ export default function Home() {
       </div>
     </div>
     
+    <img src="/images/shirt-left.gif" alt="Shirt Left" className="tshirt-left" />
+    <img src="/images/shirt-right.gif" alt="Shirt Right" className="tshirt-right" />
+
   </>
 }
