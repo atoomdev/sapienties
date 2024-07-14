@@ -92,7 +92,7 @@ body {
     width: 100px; /* Genişliği artırdık */
     height: auto;
     top: 0;
-    z-index: 1000;
+    z-index: 10000;
   }
   
   .tshirt-left {
