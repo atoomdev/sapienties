@@ -83,7 +83,7 @@ body {
       transform: translateY(-100%);
     }
     100% {
-      transform: translateY(100%);
+      transform: translateY(calc(100vh + 100px)); /* 100vh yüksekliğe ek olarak biraz daha fazladan alan */
     }
   }
   
@@ -92,16 +92,16 @@ body {
     width: 100px; /* Genişliği artırdık */
     height: auto;
     top: 0;
-    z-index: 10000;
+    z-index: 1000;
   }
   
   .tshirt-left {
-    left: 7;
-    animation: slideDown 5s linear infinite;
+    left: 0;
+    animation: slideDown 10s linear infinite; /* Animasyon süresini 10 saniye olarak ayarladık */
   }
   
   .tshirt-right {
-    right: 7;
-    animation: slideDown 5s linear infinite;
+    right: 0;
+    animation: slideDown 10s linear infinite; /* Animasyon süresini 10 saniye olarak ayarladık */
   }
   
