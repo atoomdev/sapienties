@@ -89,7 +89,7 @@ body {
   
   .tshirt-left, .tshirt-right {
     position: fixed;
-    width: 50px;
+    width: 100px; /* Genişliği artırdık */
     height: auto;
     top: 0;
     z-index: 1000;
@@ -97,11 +97,11 @@ body {
   
   .tshirt-left {
     left: 0;
-    animation: slideDown 100s linear infinite;
+    animation: slideDown 5s linear infinite;
   }
   
   .tshirt-right {
     right: 0;
-    animation: slideDown 100s linear infinite;
+    animation: slideDown 5s linear infinite;
   }
   
