@@ -97,11 +97,11 @@ body {
   
   .tshirt-left {
     left: 0;
-    animation: slideDown 5s linear infinite;
+    animation: slideDown 10s linear infinite;
   }
   
   .tshirt-right {
     right: 0;
-    animation: slideDown 5s linear infinite;
+    animation: slideDown 10s linear infinite;
   }
   
