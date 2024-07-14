@@ -96,12 +96,12 @@ body {
   }
   
   .tshirt-left {
-    left: 0;
+    left: 7;
     animation: slideDown 5s linear infinite;
   }
   
   .tshirt-right {
-    right: 0;
+    right: 7;
     animation: slideDown 5s linear infinite;
   }
   
