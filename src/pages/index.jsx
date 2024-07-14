@@ -23,6 +23,9 @@ export default function Home() {
       <p className="mx-auto max-w-4xl font-display text-2xl text-gray-500/50 text-center mt-8">
         Want to be Wealthy?
       </p>
+      <p className="mx-auto max-w-4xl font-display text-2xl text-gray-500/50 text-center mt-8">
+        Want to get the coolest t-shirt?
+      </p>
       <div className="flex justify-end">
         <a href={`#`} target="_blank" rel="noreferrer">
           <Button className="mt-6 mb-2 flex items-center gap-2">
